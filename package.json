@@ -1,0 +1,31 @@
+{
+  "name": "mymove",
+  "version": "1.0.0",
+  "description": "Move files and directories",
+  "main": "index.js",
+  "preferGlobal": "true",
+  "bin": {
+    "mymove": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roonie007/mymove.git"
+  },
+  "keywords": [
+    "move",
+    "file",
+    "directory",
+    "files",
+    "directories",
+    "mv"
+  ],
+  "author": "DipToX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roonie007/mymove/issues"
+  },
+  "homepage": "https://github.com/roonie007/mymove#readme",
+  "dependencies": {
+    "child_process": "^1.0.2"
+  }
+}
