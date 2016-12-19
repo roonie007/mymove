@@ -5,7 +5,7 @@ module.exports = function(from ,to,callback)
 	if(process.platform === "win32")
 		cmd = "MOVE"
 	
-	exec(cmd+" "+from+" "+to, function(error, stdout, stderr) 
+	exec(cmd+" \""+from+"\" \""+to+"\"", function(error, stdout, stderr) 
 	{
 		if(typeof callback !== "undefined")
 	  		callback(error);
